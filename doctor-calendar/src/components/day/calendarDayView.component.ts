@@ -38,25 +38,26 @@ export class DayViewComponent {
 
     events: CalendarEvent[] = [
         {
-            start: subDays(startOfDay(new Date()), 1),
-            end: addDays(new Date(), 1),
-            title: 'A 3 day event',
+            start: new Date('2017-09-30T15:24:00'),
+            end: new Date('2017-09-30T15:54:00'),
+            title: 'Joan Dow ',
             color: colors.red
         },
         {
-            start: startOfDay(new Date()),
-            title: 'An event with no end date',
+            start: new Date('2017-09-30T12:24:00'),
+            end: new Date('2017-09-30T13:24:00'),
+            title: 'Ben Biver',
             color: colors.yellow
         },
         {
-            start: subDays(endOfMonth(new Date()), 3),
-            end: addDays(endOfMonth(new Date()), 3),
-            title: 'A long event that spans 2 months',
+            start: new Date('2017-09-30T14:24:00'),
+            end: new Date('2017-09-30T15:24:00'),
+            title: 'Jan Jose Padro',
             color: colors.blue
         },
         {
-            start: addHours(startOfDay(new Date()), 2),
-            end: new Date(),
+            start: new Date('2017-09-30T11:30:00'),
+            end: new Date('2017-09-30T12:50:00'),
             title: 'A draggable and resizable event',
             color: colors.yellow,
             resizable: {
