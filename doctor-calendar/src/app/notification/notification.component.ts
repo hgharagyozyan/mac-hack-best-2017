@@ -13,12 +13,13 @@ export class NotificationComponent implements OnInit {
     @ViewChild('modalContent') modalContent: TemplateRef<any>;
 
   ngOnInit() {
-    setTimeout(()=> this.count=1, 2000);
-      setTimeout(()=> this.count++, 6000);
+      setTimeout(()=> this.count++, 5000);
   }
 
   onNotificationClick (): void {
-    this.modal.open(this.modalContent, { size: 'lg' });
+      if (this.count){
+        this.modal.open(this.modalContent, { size: 'lg' });
+      }
 }
 
 }
