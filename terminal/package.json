@@ -1,0 +1,27 @@
+{
+  "name": "https-server",
+  "version": "0.0.0",
+  "description": "Temporary secure server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~3.4.7",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "http-server": "~0.10.0",
+    "instascan": "^1.0.0",
+    "node-cmd": "^3.0.0",
+    "node-printer": "^1.0.2",
+    "path": "~0.4.9",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

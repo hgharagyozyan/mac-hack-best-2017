@@ -19,7 +19,7 @@ app.use(express.methodOverride());
 app.use(app.router);
 
 app.all('/*', function(req, res, next) {
-  res.header('Access-Control-Allow-Origin', '*');
+  	res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -28,6 +28,7 @@ app.all('/*', function(req, res, next) {
 
 app.get('/appointment/:token', function (req, res) {
 	var token = req.params.token;
+	console.log("aaaaa")
     res.send(200, db.appointment[token]);
 });
 

@@ -4,3 +4,5 @@
 ./doctor-calendar/package-lock.
 ./backend/node_modules
 ./backend/package-lock.json
+./terminal/node_modules
+./terminal/package-lock.json
