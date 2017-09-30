@@ -10,11 +10,15 @@ import { DemoModule } from "../plunk/demo/module";
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from 'angular-calendar';
+import { NotificationBarComponent } from './notification-bar/notification-bar.component';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DayViewComponent
+    DayViewComponent,
+    NotificationBarComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,

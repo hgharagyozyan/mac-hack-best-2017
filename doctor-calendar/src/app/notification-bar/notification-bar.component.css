@@ -1,0 +1,30 @@
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    margin: 50px 0;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #939393;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .calendar {
+    display: block;
+    margin: 0 1000px 0 50px;
+}
