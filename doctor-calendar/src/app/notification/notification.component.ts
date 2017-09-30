@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NotificationComponent implements OnInit {
 
   constructor() { }
+  count: number = null;
 
   ngOnInit() {
+    setTimeout(()=> this.count=1, 2000);
+      setTimeout(()=> this.count++, 6000);
   }
 
 }
