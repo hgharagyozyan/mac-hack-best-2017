@@ -6,8 +6,10 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "~3.4.7",
+    "http": "0.0.0",
     "http-server": "~0.10.0",
-    "path": "~0.4.9"
+    "path": "~0.4.9",
+    "socket.io": "^2.0.3"
   },
   "devDependencies": {},
   "scripts": {
