@@ -60,14 +60,16 @@ export class DemoComponent {
     {
       label: '<i class="fa fa-fw fa-pencil"></i>',
       onClick: ({ event }: { event: CalendarEvent }): void => {
-        this.handleEvent('Edited', event);
+        // this.handleEvent('Edited', event);
+          console.log('pencil');
       }
     },
     {
       label: '<i class="fa fa-fw fa-times"></i>',
       onClick: ({ event }: { event: CalendarEvent }): void => {
         this.events = this.events.filter(iEvent => iEvent !== event);
-        this.handleEvent('Deleted', event);
+        // this.handleEvent('Deleted', event);
+          console.log('time');
       }
     }
   ];
