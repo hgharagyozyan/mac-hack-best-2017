@@ -1,4 +1,6 @@
 .DS_Store
 ./doctor-calendar/node_modules
 ./idea
-./doctor-calendar/package-lock.json
+./doctor-calendar/package-lock.
+./backend/node_modules
+./backend/package-lock.json
