@@ -1,0 +1,20 @@
+{
+  "name": "https-server",
+  "version": "0.0.0",
+  "description": "Temporary secure server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~3.4.7",
+    "http-server": "~0.10.0",
+    "path": "~0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
