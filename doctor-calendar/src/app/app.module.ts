@@ -14,8 +14,8 @@ import { CalendarModule } from 'angular-calendar';
   ],
   imports: [
     BrowserModule,
-      BrowserAnimationsModule,
-      CalendarModule.forRoot()
+    BrowserAnimationsModule,
+    CalendarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
